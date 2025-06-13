@@ -13,13 +13,13 @@
 <details>
 <summary><strong>Inspiration for the Project</strong></summary>
 
-VThe creation of afinch robot that implements the controls of an average video game; which allows for WASD keyboard inputs along with a toggle sprint system which quickens the speed of the robot's movement.
+The creation of a finch robot that implements the controls of an average video game; which allows for WASD keyboard inputs along with a toggle sprint system which quickens the speed of the robot's movement.
 </details>
 
 ---
 
 ### Design Cycle
-<img src="design_cycle.png" alt="design cycle" width="300" height="300">
+<img src="[design_cycle.png](https://tenor.com/view/don-quixote-w-dance-limbus-company-gif-27684016)" alt="design cycle" width="300" height="300">
 
 ###### Include commentary on your experience with the design cycle during this project
 
@@ -76,11 +76,22 @@ VThe creation of afinch robot that implements the controls of an average video g
 ---
 
 ### What was your motivation?
-When we start the creation of the 3D modification for the finch, we 
+When we start the creation of the 3D modification for the finch, we orginally wanted to make the robot carry an 3d model of a character from a popular korean game called LIMBUS COMPANY, this ideas was later scraped and replaced with a container that carries coins which is also apart of the game.
 
 ### What did you learn?
 While coding the robot, we as a group established the fact that we wanted to utilize WASD keybinds in order to enable the finch's movement. We collectly agreed to have this be our primary goal for the finch, because we wanted the ability to have free control of the robot while it was active, and it felt too much off a hassle to constantly change the code if we wanted the flinch to perform a different task. We also thought that it would've been a suitable implementation to add onto the flinch, considering the fact that our 3D printed modification would only had a decorative purpose.
 
+the usage of the java libaray keyEvents was added after the orginal idea of a Jswing gui that had allow for simple back and forth buttons for the purpose of moving the finch bot in two simple directions, this was later added on with the keyEvent libaray allowing the code to detect keypresses such as *w a s d* and *t* 
+
+w= forwards
+s= backwards
+a= left
+d= right
+t= sprint/speed toggle
+
+with the usage of the keyEvent libaray the simple jswing libaray allows inputs from keypresses to cause movement in the finch robot. overriding the base function of keypress the code was able to detect user inputs. to provent the input from looping infinity we override the keyRelease function from the Keyevent libaray as well, which detects when  *W A S D* is let go thus stoping the code.
+
+T as a toggle button does not have the key release button, instead it check a boolean function to see if it is enabled, if so the robot is set to a faster motor power
   
 ### What makes your project stand out?
 jswing keyevent
