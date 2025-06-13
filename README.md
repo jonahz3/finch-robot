@@ -19,7 +19,8 @@ The creation of a finch robot that implements the controls of an average video g
 ---
 
 ### Design Cycle
-<img src="https://tenor.com/view/don-quixote-w-dance-limbus-company-gif-27684016" alt="gif" />
+![Don Quixote W Dance GIF](https://media.tenor.com/images/27684016.gif)
+
 
 ###### Include commentary on your experience with the design cycle during this project
 
