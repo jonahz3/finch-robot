@@ -104,6 +104,6 @@ with the usage of the keyEvent libaray the simple jswing libaray allows inputs f
 T as a toggle button does not have the key release button, instead it check a boolean function to see if it is enabled, if so the robot is set to a faster motor power
   
 ### What makes your project stand out?
-jswing keyevent
+the usage of the libaray
+jswing and keyevent
 
-We used 
