@@ -20,11 +20,13 @@ The creation of a finch robot that implements the controls of an average video g
 ---
 
 ### Design Cycle
-![DONQ](relative/path/to/don.gif)
+<img src="https://preview.redd.it/does-anyone-know-the-source-of-the-zena-cat-images-outside-v0-atue5kweyahd1.jpeg?width=640&crop=smart&auto=webp&s=84a89e38704c18b7b622d6bb07bd301e5e76b552" width="250">
 
+###### yap
 
+we came up with a base idea of wanting the finch robot being able to not have a set movement, example: going straight for 20 inchs, we wanted direct control over the robot thus we implemented JSWING libaray to allow for a simple jswing gui with only two buttons, forwards and backwards which allowed the robot to move forward and backwards as the name says. 
 
-###### Include commentary on your experience with the design cycle during this project
+Later this control system was too restricting thus we added the libaray keyEvents to allow for further controls and movement to the finch robot. Instead of being brain dead and only able to move back wards and forwards the robot now is able to turn left and right while also allowing speed to be toggled
 
 ---
 
