@@ -15,6 +15,11 @@
 <summary><strong>Inspiration for the Project</strong></summary>
 
 The creation of a finch robot that implements the controls of an average video game; which allows for WASD keyboard inputs along with a toggle sprint system which quickens the speed of the robot's movement.
+
+
+the robot will have a collection system on the top of the robot.
+
+this will allow a system to collect coins for whatever the purpose could be.
 </details>
 
 ---
